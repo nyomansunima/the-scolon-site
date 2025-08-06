@@ -3,7 +3,7 @@ import { generatedMetadata } from "@shared/libs"
 
 export function meta() {
   return generatedMetadata({
-    title: "Level Your Devs Skills | The Scolon",
+    title: "Level Up Your Devs Skills | The Scolon",
     description:
       "Top place to learn and growing development skills, career, business and learn to become better developers.",
   })
