@@ -24,9 +24,14 @@ const items: ItemData[] = [
 export function HeroSection() {
   return (
     <section className="flex flex-col py-28 items-center">
-      <img src={logo} width={75} height={75} />
+      <img
+        src={logo}
+        width={75}
+        height={75}
+        className="transition-all duration-300 hover:scale-95"
+      />
 
-      <h2 className="text-4xl font-medium leading-tight text-center mt-10">
+      <h2 className="text-4xl font-bold font-heading leading-tight text-center mt-10">
         Level up your
         <br />
         devs skills
@@ -38,7 +43,7 @@ export function HeroSection() {
         better developer.
       </p>
 
-      <div className="flex flex-col mt-14 gap-1">
+      <div className="flex flex-col mt-10 gap-1">
         {items.map((item, i) => (
           <Link to={item.url} key={i} className="flex items-center gap-2 py-2">
             <i className="fi fi-sc-bullet text-sm text-foreground/40" />
