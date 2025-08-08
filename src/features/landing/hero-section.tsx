@@ -19,6 +19,10 @@ const items: ItemData[] = [
     label: "Dev.to",
     url: "https://dev.to/thescolon",
   },
+  {
+    label: "Linkedin newsletter",
+    url: "https://www.linkedin.com/newsletters/the-scolon-7359456360293453826",
+  },
 ]
 
 export function HeroSection() {
